@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 solvery. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
+
 #import "OOCategory1_ClassA.h"
 #import "OOCategory1_ClassA+CategoryAdditions.h"
 

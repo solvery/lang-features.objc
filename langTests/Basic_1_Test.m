@@ -6,7 +6,6 @@
 //  Copyright (c) 2015年 solvery. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
 @interface Basic_1_Test : XCTestCase
