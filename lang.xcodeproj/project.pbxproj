@@ -13,6 +13,8 @@
 		D7B06EC21BAC44B7004430C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B06EC11BAC44B7004430C7 /* Images.xcassets */; };
 		D7B06EC51BAC44B7004430C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B06EC31BAC44B7004430C7 /* Main.storyboard */; };
 		D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B06ED01BAC44B7004430C7 /* langTests.m */; };
+		D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */; };
+		D7D3DBD61BAD88C0009088A9 /* Basic_1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		D7B06ECA1BAC44B7004430C7 /* langTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = langTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B06ECF1BAC44B7004430C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B06ED01BAC44B7004430C7 /* langTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = langTests.m; sourceTree = "<group>"; };
+		D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestCaseTest_1.m; sourceTree = "<group>"; };
+		D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic_1_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				D7B06ED01BAC44B7004430C7 /* langTests.m */,
+				D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */,
+				D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */,
 				D7B06ECE1BAC44B7004430C7 /* Supporting Files */,
 			);
 			path = langTests;
@@ -225,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D3DBD61BAD88C0009088A9 /* Basic_1_Test.m in Sources */,
+				D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				D7B06ED61BAC44B7004430C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7B06ED71BAC44B7004430C7 /* Build configuration list for PBXNativeTarget "langTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				D7B06ED91BAC44B7004430C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
