@@ -1,13 +1,13 @@
 //
-//  OO2ClassA.h
+//  OO2_ClassA.m
 //  lang
 //
 //  Created by ciminy on 15/9/20.
 //  Copyright (c) 2015年 solvery. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "OO2_ClassA.h"
 
-@interface OO2ClassA : NSObject
+@implementation OO2_ClassA
 
 @end
