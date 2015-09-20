@@ -71,11 +71,11 @@
     
     id obj = array[0]; //通过下标方式获取数组对象，替换原有写法：array objectAtIndex:i];
     NSString *obj1  = @"oooo";
-    array[0]  = obj1; //也可以直接为数组对象赋值。替换原有写法：[array replaceObjectAtIndex:i withObject:newObj];
+    //array[0]  = obj1; //也可以直接为数组对象赋值。替换原有写法：[array replaceObjectAtIndex:i withObject:newObj];
     
     NSMutableDictionary *dict = @{@"key1": @"value1",@"key2": @"value2",@"key3": @"value3" };
     id obj2 = dict[@"key1"];//获取o2对象，替换原有写法：[dic objectForKey:k2];
-    dict[@"key2"] = obj;  //重新为键为k2的对象赋值，替换原有写法：[dic setObject:newObj forKey:k2]
+    // dict[@"key2"] = obj;  //重新为键为k2的对象赋值，替换原有写法：[dic setObject:newObj forKey:k2]
 
 }
 
