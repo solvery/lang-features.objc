@@ -21,6 +21,8 @@
 		D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBFA1BAD9C4F009088A9 /* OOCategory1_Test.m */; };
 		D7D3DC021BADA219009088A9 /* OOProtocol1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC011BADA219009088A9 /* OOProtocol1_ClassA.m */; };
 		D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC061BADA464009088A9 /* OOProtocol1_Tests.m */; };
+		D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */; };
+		D7D3DC151BAE6C89009088A9 /* OO2ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		D7D3DC011BADA219009088A9 /* OOProtocol1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOProtocol1_ClassA.m; sourceTree = "<group>"; };
 		D7D3DC051BADA341009088A9 /* OOProtocol1_ProtocolA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOProtocol1_ProtocolA.h; sourceTree = "<group>"; };
 		D7D3DC061BADA464009088A9 /* OOProtocol1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOProtocol1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loop1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC131BAE6C89009088A9 /* OO2ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OO2ClassA.h; sourceTree = "<group>"; };
+		D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO2ClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +87,6 @@
 		D7B06EAB1BAC44B7004430C7 = {
 			isa = PBXGroup;
 			children = (
-				D7D3DBF61BAD9929009088A9 /* OOCategory1 */,
-				D7D3DBFF1BADA219009088A9 /* OOProtocol1 */,
 				D7B06EB61BAC44B7004430C7 /* lang */,
 				D7B06ECD1BAC44B7004430C7 /* langTests */,
 				D7B06EB51BAC44B7004430C7 /* Products */,
@@ -102,7 +105,10 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DBF61BAD9929009088A9 /* OOCategory1 */,
+				D7D3DBFF1BADA219009088A9 /* OOProtocol1 */,
 				D7D3DBE21BAD9177009088A9 /* OO1 */,
+				D7D3DC121BAE6C89009088A9 /* OO2 */,
 				D7B06EB91BAC44B7004430C7 /* AppDelegate.h */,
 				D7B06EBA1BAC44B7004430C7 /* AppDelegate.m */,
 				D7B06EBE1BAC44B7004430C7 /* ViewController.h */,
@@ -129,6 +135,7 @@
 				D7B06ED01BAC44B7004430C7 /* langTests.m */,
 				D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */,
 				D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */,
+				D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */,
 				D7D3DBFA1BAD9C4F009088A9 /* OOCategory1_Test.m */,
 				D7B06ECE1BAC44B7004430C7 /* Supporting Files */,
 				D7D3DC061BADA464009088A9 /* OOProtocol1_Tests.m */,
@@ -162,6 +169,7 @@
 				D7D3DBF81BAD99F6009088A9 /* OOCategory1_ClassA+CategoryAdditions.m */,
 			);
 			name = OOCategory1;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D7D3DBFF1BADA219009088A9 /* OOProtocol1 */ = {
@@ -171,8 +179,16 @@
 				D7D3DC011BADA219009088A9 /* OOProtocol1_ClassA.m */,
 				D7D3DC051BADA341009088A9 /* OOProtocol1_ProtocolA.h */,
 			);
-			name = OOProtocol1;
-			path = lang/OOProtocol1;
+			path = OOProtocol1;
+			sourceTree = "<group>";
+		};
+		D7D3DC121BAE6C89009088A9 /* OO2 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC131BAE6C89009088A9 /* OO2ClassA.h */,
+				D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */,
+			);
+			path = OO2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +295,7 @@
 				D7D3DC021BADA219009088A9 /* OOProtocol1_ClassA.m in Sources */,
 				D7B06EC01BAC44B7004430C7 /* ViewController.m in Sources */,
 				D7D3DBF51BAD9920009088A9 /* OOCategory1_ClassA.m in Sources */,
+				D7D3DC151BAE6C89009088A9 /* OO2ClassA.m in Sources */,
 				D7B06EBD1BAC44B7004430C7 /* main.m in Sources */,
 				D7B06EBB1BAC44B7004430C7 /* AppDelegate.m in Sources */,
 			);
@@ -291,6 +308,7 @@
 				D7D3DBD61BAD88C0009088A9 /* Basic_1_Test.m in Sources */,
 				D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */,
 				D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */,
+				D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */,
 				D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
 			);
