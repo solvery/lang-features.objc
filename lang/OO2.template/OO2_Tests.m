@@ -8,7 +8,6 @@
 @implementation OO2_Tests
 
 - (void) testOO2 {
-    
 }
 
 @end
