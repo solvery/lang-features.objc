@@ -26,6 +26,8 @@
 		D7D3DC231BAEA823009088A9 /* OO2_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC221BAEA823009088A9 /* OO2_ClassA.m */; };
 		D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC2F1BAEF082009088A9 /* OO1_ClassA.m */; };
 		D7D3DC331BAEF08D009088A9 /* OO1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC301BAEF082009088A9 /* OO1_Tests.m */; };
+		D7D3DC381BAEF331009088A9 /* Xcode2012Change1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC361BAEF331009088A9 /* Xcode2012Change1_ClassA.m */; };
+		D7D3DC391BAEF331009088A9 /* Xcode2012Change1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC371BAEF331009088A9 /* Xcode2012Change1_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,9 @@
 		D7D3DC2E1BAEF082009088A9 /* OO1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OO1_ClassA.h; sourceTree = "<group>"; };
 		D7D3DC2F1BAEF082009088A9 /* OO1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO1_ClassA.m; sourceTree = "<group>"; };
 		D7D3DC301BAEF082009088A9 /* OO1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC351BAEF331009088A9 /* Xcode2012Change1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode2012Change1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC361BAEF331009088A9 /* Xcode2012Change1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xcode2012Change1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC371BAEF331009088A9 /* Xcode2012Change1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xcode2012Change1_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DC341BAEF331009088A9 /* Xcode2012Change1 */,
 				D7D3DBF61BAD9929009088A9 /* OOCategory1 */,
 				D7D3DBFF1BADA219009088A9 /* OOProtocol1 */,
 				D7D3DC2D1BAEF082009088A9 /* OO1 */,
@@ -200,6 +206,16 @@
 				D7D3DC301BAEF082009088A9 /* OO1_Tests.m */,
 			);
 			path = OO1;
+			sourceTree = "<group>";
+		};
+		D7D3DC341BAEF331009088A9 /* Xcode2012Change1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC351BAEF331009088A9 /* Xcode2012Change1_ClassA.h */,
+				D7D3DC361BAEF331009088A9 /* Xcode2012Change1_ClassA.m */,
+				D7D3DC371BAEF331009088A9 /* Xcode2012Change1_Tests.m */,
+			);
+			path = Xcode2012Change1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,11 +335,13 @@
 				D7D3DC201BAEA751009088A9 /* OO2_Tests.m in Sources */,
 				D7D3DC1E1BAE7DE7009088A9 /* OOAttr1_Tests.m in Sources */,
 				D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */,
+				D7D3DC381BAEF331009088A9 /* Xcode2012Change1_ClassA.m in Sources */,
 				D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */,
 				D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */,
 				D7D3DC331BAEF08D009088A9 /* OO1_Tests.m in Sources */,
 				D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
+				D7D3DC391BAEF331009088A9 /* Xcode2012Change1_Tests.m in Sources */,
 				D7D3DC231BAEA823009088A9 /* OO2_ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
