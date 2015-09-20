@@ -32,6 +32,7 @@
 		D7D3DC401BAEFC0C009088A9 /* Block1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC3D1BAEFC07009088A9 /* Block1_Tests.m */; };
 		D7D3DC451BAF055D009088A9 /* KVO1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC431BAF055D009088A9 /* KVO1_ClassA.m */; };
 		D7D3DC471BAF0566009088A9 /* KVO1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC441BAF055D009088A9 /* KVO1_Tests.m */; };
+		D7D3DC4A1BAF0876009088A9 /* KVO1_View.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC491BAF0876009088A9 /* KVO1_View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		D7D3DC421BAF055D009088A9 /* KVO1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO1_ClassA.h; sourceTree = "<group>"; };
 		D7D3DC431BAF055D009088A9 /* KVO1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO1_ClassA.m; sourceTree = "<group>"; };
 		D7D3DC441BAF055D009088A9 /* KVO1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC481BAF0876009088A9 /* KVO1_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO1_View.h; sourceTree = "<group>"; };
+		D7D3DC491BAF0876009088A9 /* KVO1_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO1_View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +248,8 @@
 			children = (
 				D7D3DC421BAF055D009088A9 /* KVO1_ClassA.h */,
 				D7D3DC431BAF055D009088A9 /* KVO1_ClassA.m */,
+				D7D3DC481BAF0876009088A9 /* KVO1_View.h */,
+				D7D3DC491BAF0876009088A9 /* KVO1_View.m */,
 				D7D3DC441BAF055D009088A9 /* KVO1_Tests.m */,
 			);
 			path = KVO1;
@@ -359,6 +364,7 @@
 				D7B06EBB1BAC44B7004430C7 /* AppDelegate.m in Sources */,
 				D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */,
 				D7D3DC451BAF055D009088A9 /* KVO1_ClassA.m in Sources */,
+				D7D3DC4A1BAF0876009088A9 /* KVO1_View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
