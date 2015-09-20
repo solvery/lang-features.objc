@@ -14,15 +14,18 @@
 		D7B06EC51BAC44B7004430C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B06EC31BAC44B7004430C7 /* Main.storyboard */; };
 		D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B06ED01BAC44B7004430C7 /* langTests.m */; };
 		D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */; };
-		D7D3DBD61BAD88C0009088A9 /* Basic_1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */; };
-		D7D3DBE51BAD91F2009088A9 /* OO1ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBE41BAD91F2009088A9 /* OO1ClassA.m */; };
 		D7D3DBF51BAD9920009088A9 /* OOCategory1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBF41BAD9920009088A9 /* OOCategory1_ClassA.m */; };
 		D7D3DBF91BAD99F6009088A9 /* OOCategory1_ClassA+CategoryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBF81BAD99F6009088A9 /* OOCategory1_ClassA+CategoryAdditions.m */; };
 		D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DBFA1BAD9C4F009088A9 /* OOCategory1_Test.m */; };
 		D7D3DC021BADA219009088A9 /* OOProtocol1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC011BADA219009088A9 /* OOProtocol1_ClassA.m */; };
 		D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC061BADA464009088A9 /* OOProtocol1_Tests.m */; };
 		D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */; };
-		D7D3DC151BAE6C89009088A9 /* OO2ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */; };
+		D7D3DC1C1BAE6EC4009088A9 /* OOAttr1ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC1B1BAE6EC4009088A9 /* OOAttr1ClassA.m */; };
+		D7D3DC1E1BAE7DE7009088A9 /* OOAttr1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC1D1BAE7DE7009088A9 /* OOAttr1_Tests.m */; };
+		D7D3DC201BAEA751009088A9 /* OO2_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC1F1BAEA751009088A9 /* OO2_Tests.m */; };
+		D7D3DC231BAEA823009088A9 /* OO2_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC221BAEA823009088A9 /* OO2_ClassA.m */; };
+		D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC2F1BAEF082009088A9 /* OO1_ClassA.m */; };
+		D7D3DC331BAEF08D009088A9 /* OO1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC301BAEF082009088A9 /* OO1_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +52,6 @@
 		D7B06ECF1BAC44B7004430C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B06ED01BAC44B7004430C7 /* langTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = langTests.m; sourceTree = "<group>"; };
 		D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTestCaseTest_1.m; sourceTree = "<group>"; };
-		D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic_1_Test.m; sourceTree = "<group>"; };
-		D7D3DBE31BAD91F2009088A9 /* OO1ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OO1ClassA.h; sourceTree = "<group>"; };
-		D7D3DBE41BAD91F2009088A9 /* OO1ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO1ClassA.m; sourceTree = "<group>"; };
 		D7D3DBF31BAD9920009088A9 /* OOCategory1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OOCategory1_ClassA.h; path = lang/OOCategory1/OOCategory1_ClassA.h; sourceTree = "<group>"; };
 		D7D3DBF41BAD9920009088A9 /* OOCategory1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OOCategory1_ClassA.m; path = lang/OOCategory1/OOCategory1_ClassA.m; sourceTree = "<group>"; };
 		D7D3DBF71BAD99F6009088A9 /* OOCategory1_ClassA+CategoryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "OOCategory1_ClassA+CategoryAdditions.h"; path = "lang/OOCategory1/OOCategory1_ClassA+CategoryAdditions.h"; sourceTree = "<group>"; };
@@ -62,8 +62,15 @@
 		D7D3DC051BADA341009088A9 /* OOProtocol1_ProtocolA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOProtocol1_ProtocolA.h; sourceTree = "<group>"; };
 		D7D3DC061BADA464009088A9 /* OOProtocol1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOProtocol1_Tests.m; sourceTree = "<group>"; };
 		D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loop1_Tests.m; sourceTree = "<group>"; };
-		D7D3DC131BAE6C89009088A9 /* OO2ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OO2ClassA.h; sourceTree = "<group>"; };
-		D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO2ClassA.m; sourceTree = "<group>"; };
+		D7D3DC1A1BAE6EC4009088A9 /* OOAttr1ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOAttr1ClassA.h; sourceTree = "<group>"; };
+		D7D3DC1B1BAE6EC4009088A9 /* OOAttr1ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOAttr1ClassA.m; sourceTree = "<group>"; };
+		D7D3DC1D1BAE7DE7009088A9 /* OOAttr1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OOAttr1_Tests.m; path = langTests/OOAttr1_Tests.m; sourceTree = SOURCE_ROOT; };
+		D7D3DC1F1BAEA751009088A9 /* OO2_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OO2_Tests.m; path = lang/OO2/OO2_Tests.m; sourceTree = SOURCE_ROOT; };
+		D7D3DC211BAEA823009088A9 /* OO2_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OO2_ClassA.h; path = lang/OO2/OO2_ClassA.h; sourceTree = SOURCE_ROOT; };
+		D7D3DC221BAEA823009088A9 /* OO2_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OO2_ClassA.m; path = lang/OO2/OO2_ClassA.m; sourceTree = SOURCE_ROOT; };
+		D7D3DC2E1BAEF082009088A9 /* OO1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OO1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC2F1BAEF082009088A9 /* OO1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC301BAEF082009088A9 /* OO1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OO1_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +114,8 @@
 			children = (
 				D7D3DBF61BAD9929009088A9 /* OOCategory1 */,
 				D7D3DBFF1BADA219009088A9 /* OOProtocol1 */,
-				D7D3DBE21BAD9177009088A9 /* OO1 */,
-				D7D3DC121BAE6C89009088A9 /* OO2 */,
+				D7D3DC2D1BAEF082009088A9 /* OO1 */,
+				D7D3DC191BAE6EC4009088A9 /* OOAttr1 */,
 				D7B06EB91BAC44B7004430C7 /* AppDelegate.h */,
 				D7B06EBA1BAC44B7004430C7 /* AppDelegate.m */,
 				D7B06EBE1BAC44B7004430C7 /* ViewController.h */,
@@ -134,7 +141,9 @@
 			children = (
 				D7B06ED01BAC44B7004430C7 /* langTests.m */,
 				D7B7EDB81BAD388300F0A06A /* XCTestCaseTest_1.m */,
-				D7D3DBD51BAD88C0009088A9 /* Basic_1_Test.m */,
+				D7D3DC1F1BAEA751009088A9 /* OO2_Tests.m */,
+				D7D3DC211BAEA823009088A9 /* OO2_ClassA.h */,
+				D7D3DC221BAEA823009088A9 /* OO2_ClassA.m */,
 				D7D3DC0D1BAE6990009088A9 /* Loop1_Tests.m */,
 				D7D3DBFA1BAD9C4F009088A9 /* OOCategory1_Test.m */,
 				D7B06ECE1BAC44B7004430C7 /* Supporting Files */,
@@ -149,15 +158,6 @@
 				D7B06ECF1BAC44B7004430C7 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D7D3DBE21BAD9177009088A9 /* OO1 */ = {
-			isa = PBXGroup;
-			children = (
-				D7D3DBE31BAD91F2009088A9 /* OO1ClassA.h */,
-				D7D3DBE41BAD91F2009088A9 /* OO1ClassA.m */,
-			);
-			name = OO1;
 			sourceTree = "<group>";
 		};
 		D7D3DBF61BAD9929009088A9 /* OOCategory1 */ = {
@@ -182,13 +182,24 @@
 			path = OOProtocol1;
 			sourceTree = "<group>";
 		};
-		D7D3DC121BAE6C89009088A9 /* OO2 */ = {
+		D7D3DC191BAE6EC4009088A9 /* OOAttr1 */ = {
 			isa = PBXGroup;
 			children = (
-				D7D3DC131BAE6C89009088A9 /* OO2ClassA.h */,
-				D7D3DC141BAE6C89009088A9 /* OO2ClassA.m */,
+				D7D3DC1A1BAE6EC4009088A9 /* OOAttr1ClassA.h */,
+				D7D3DC1B1BAE6EC4009088A9 /* OOAttr1ClassA.m */,
+				D7D3DC1D1BAE7DE7009088A9 /* OOAttr1_Tests.m */,
 			);
-			path = OO2;
+			path = OOAttr1;
+			sourceTree = "<group>";
+		};
+		D7D3DC2D1BAEF082009088A9 /* OO1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC2E1BAEF082009088A9 /* OO1_ClassA.h */,
+				D7D3DC2F1BAEF082009088A9 /* OO1_ClassA.m */,
+				D7D3DC301BAEF082009088A9 /* OO1_Tests.m */,
+			);
+			path = OO1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,13 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D3DBF91BAD99F6009088A9 /* OOCategory1_ClassA+CategoryAdditions.m in Sources */,
-				D7D3DBE51BAD91F2009088A9 /* OO1ClassA.m in Sources */,
 				D7D3DC021BADA219009088A9 /* OOProtocol1_ClassA.m in Sources */,
 				D7B06EC01BAC44B7004430C7 /* ViewController.m in Sources */,
 				D7D3DBF51BAD9920009088A9 /* OOCategory1_ClassA.m in Sources */,
-				D7D3DC151BAE6C89009088A9 /* OO2ClassA.m in Sources */,
+				D7D3DC1C1BAE6EC4009088A9 /* OOAttr1ClassA.m in Sources */,
 				D7B06EBD1BAC44B7004430C7 /* main.m in Sources */,
 				D7B06EBB1BAC44B7004430C7 /* AppDelegate.m in Sources */,
+				D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D3DBD61BAD88C0009088A9 /* Basic_1_Test.m in Sources */,
+				D7D3DC201BAEA751009088A9 /* OO2_Tests.m in Sources */,
+				D7D3DC1E1BAE7DE7009088A9 /* OOAttr1_Tests.m in Sources */,
 				D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */,
 				D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */,
 				D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */,
+				D7D3DC331BAEF08D009088A9 /* OO1_Tests.m in Sources */,
 				D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
+				D7D3DC231BAEA823009088A9 /* OO2_ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
