@@ -33,6 +33,8 @@
 		D7D3DC451BAF055D009088A9 /* KVO1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC431BAF055D009088A9 /* KVO1_ClassA.m */; };
 		D7D3DC471BAF0566009088A9 /* KVO1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC441BAF055D009088A9 /* KVO1_Tests.m */; };
 		D7D3DC4A1BAF0876009088A9 /* KVO1_View.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC491BAF0876009088A9 /* KVO1_View.m */; };
+		D7D3DC4F1BB5A31D009088A9 /* KVC1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC4D1BB5A31D009088A9 /* KVC1_ClassA.m */; };
+		D7D3DC511BB5A323009088A9 /* KVC1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC4E1BB5A31D009088A9 /* KVC1_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,9 @@
 		D7D3DC441BAF055D009088A9 /* KVO1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO1_Tests.m; sourceTree = "<group>"; };
 		D7D3DC481BAF0876009088A9 /* KVO1_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO1_View.h; sourceTree = "<group>"; };
 		D7D3DC491BAF0876009088A9 /* KVO1_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO1_View.m; sourceTree = "<group>"; };
+		D7D3DC4C1BB5A31D009088A9 /* KVC1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVC1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC4D1BB5A31D009088A9 /* KVC1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVC1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC4E1BB5A31D009088A9 /* KVC1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVC1_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +135,7 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DC4B1BB5A31D009088A9 /* KVC1 */,
 				D7D3DC411BAF055D009088A9 /* KVO1 */,
 				D7D3DC3A1BAEFC07009088A9 /* Block1 */,
 				D7D3DC341BAEF331009088A9 /* Xcode2012Change1 */,
@@ -255,6 +261,16 @@
 			path = KVO1;
 			sourceTree = "<group>";
 		};
+		D7D3DC4B1BB5A31D009088A9 /* KVC1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC4C1BB5A31D009088A9 /* KVC1_ClassA.h */,
+				D7D3DC4D1BB5A31D009088A9 /* KVC1_ClassA.m */,
+				D7D3DC4E1BB5A31D009088A9 /* KVC1_Tests.m */,
+			);
+			path = KVC1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,6 +381,7 @@
 				D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */,
 				D7D3DC451BAF055D009088A9 /* KVO1_ClassA.m in Sources */,
 				D7D3DC4A1BAF0876009088A9 /* KVO1_View.m in Sources */,
+				D7D3DC4F1BB5A31D009088A9 /* KVC1_ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D3DC511BB5A323009088A9 /* KVC1_Tests.m in Sources */,
 				D7D3DC201BAEA751009088A9 /* OO2_Tests.m in Sources */,
 				D7D3DC1E1BAE7DE7009088A9 /* OOAttr1_Tests.m in Sources */,
 				D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */,
