@@ -1,0 +1,9 @@
+
+name=$1
+
+cp -a OO2.template/ $name
+cd $name
+resub OO2 $name
+cd -
+open .
+
