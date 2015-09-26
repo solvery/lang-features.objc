@@ -1,6 +1,8 @@
 
 #import <XCTest/XCTest.h>
 
+#import "OO2_ClassA.h"
+
 @interface OO2_Tests : XCTestCase
 
 @end
