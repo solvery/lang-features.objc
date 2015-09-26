@@ -38,6 +38,11 @@
 		D7D3DC601BB6E265009088A9 /* Set1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC5F1BB6E265009088A9 /* Set1_Tests.m */; };
 		D7D3DC621BB6E4AE009088A9 /* Dict1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC611BB6E4AE009088A9 /* Dict1_Test.m */; };
 		D7D3DC641BB6E55E009088A9 /* Array1_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC631BB6E55E009088A9 /* Array1_Test.m */; };
+		D7D3DC691BB6E853009088A9 /* ARC1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC671BB6E853009088A9 /* ARC1_ClassA.m */; };
+		D7D3DC6B1BB6E857009088A9 /* ARC1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC681BB6E853009088A9 /* ARC1_Tests.m */; };
+		D7D3DC701BB6EF6E009088A9 /* Introspection1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC6E1BB6EF6E009088A9 /* Introspection1_ClassA.m */; };
+		D7D3DC721BB6EF7E009088A9 /* Introspection1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC6F1BB6EF6E009088A9 /* Introspection1_Tests.m */; };
+		D7D3DC751BB6EF9F009088A9 /* Introspection1_ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC741BB6EF9F009088A9 /* Introspection1_ClassB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +105,14 @@
 		D7D3DC5F1BB6E265009088A9 /* Set1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Set1_Tests.m; sourceTree = "<group>"; };
 		D7D3DC611BB6E4AE009088A9 /* Dict1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dict1_Test.m; sourceTree = "<group>"; };
 		D7D3DC631BB6E55E009088A9 /* Array1_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array1_Test.m; sourceTree = "<group>"; };
+		D7D3DC661BB6E853009088A9 /* ARC1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARC1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC671BB6E853009088A9 /* ARC1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARC1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC681BB6E853009088A9 /* ARC1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARC1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC6D1BB6EF6E009088A9 /* Introspection1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Introspection1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC6E1BB6EF6E009088A9 /* Introspection1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introspection1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC6F1BB6EF6E009088A9 /* Introspection1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introspection1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC731BB6EF9F009088A9 /* Introspection1_ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Introspection1_ClassB.h; sourceTree = "<group>"; };
+		D7D3DC741BB6EF9F009088A9 /* Introspection1_ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introspection1_ClassB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +154,8 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DC6C1BB6EF6E009088A9 /* Introspection1 */,
+				D7D3DC651BB6E853009088A9 /* ARC1 */,
 				D7D3DC5E1BB6E265009088A9 /* Collections1 */,
 				D7D3DC4B1BB5A31D009088A9 /* KVC1 */,
 				D7D3DC411BAF055D009088A9 /* KVO1 */,
@@ -288,6 +303,28 @@
 			path = Collections1;
 			sourceTree = "<group>";
 		};
+		D7D3DC651BB6E853009088A9 /* ARC1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC661BB6E853009088A9 /* ARC1_ClassA.h */,
+				D7D3DC671BB6E853009088A9 /* ARC1_ClassA.m */,
+				D7D3DC681BB6E853009088A9 /* ARC1_Tests.m */,
+			);
+			path = ARC1;
+			sourceTree = "<group>";
+		};
+		D7D3DC6C1BB6EF6E009088A9 /* Introspection1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC6D1BB6EF6E009088A9 /* Introspection1_ClassA.h */,
+				D7D3DC6E1BB6EF6E009088A9 /* Introspection1_ClassA.m */,
+				D7D3DC731BB6EF9F009088A9 /* Introspection1_ClassB.h */,
+				D7D3DC741BB6EF9F009088A9 /* Introspection1_ClassB.m */,
+				D7D3DC6F1BB6EF6E009088A9 /* Introspection1_Tests.m */,
+			);
+			path = Introspection1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,12 +430,15 @@
 				D7B06EC01BAC44B7004430C7 /* ViewController.m in Sources */,
 				D7D3DBF51BAD9920009088A9 /* OOCategory1_ClassA.m in Sources */,
 				D7D3DC1C1BAE6EC4009088A9 /* OOAttr1ClassA.m in Sources */,
+				D7D3DC701BB6EF6E009088A9 /* Introspection1_ClassA.m in Sources */,
 				D7B06EBD1BAC44B7004430C7 /* main.m in Sources */,
 				D7B06EBB1BAC44B7004430C7 /* AppDelegate.m in Sources */,
+				D7D3DC751BB6EF9F009088A9 /* Introspection1_ClassB.m in Sources */,
 				D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */,
 				D7D3DC451BAF055D009088A9 /* KVO1_ClassA.m in Sources */,
 				D7D3DC4A1BAF0876009088A9 /* KVO1_View.m in Sources */,
 				D7D3DC4F1BB5A31D009088A9 /* KVC1_ClassA.m in Sources */,
+				D7D3DC691BB6E853009088A9 /* ARC1_ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +456,12 @@
 				D7B7EDB91BAD388300F0A06A /* XCTestCaseTest_1.m in Sources */,
 				D7D3DC0E1BAE6990009088A9 /* Loop1_Tests.m in Sources */,
 				D7D3DC331BAEF08D009088A9 /* OO1_Tests.m in Sources */,
+				D7D3DC721BB6EF7E009088A9 /* Introspection1_Tests.m in Sources */,
 				D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */,
 				D7D3DC471BAF0566009088A9 /* KVO1_Tests.m in Sources */,
 				D7D3DC621BB6E4AE009088A9 /* Dict1_Test.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
+				D7D3DC6B1BB6E857009088A9 /* ARC1_Tests.m in Sources */,
 				D7D3DC391BAEF331009088A9 /* Xcode2012Change1_Tests.m in Sources */,
 				D7D3DC231BAEA823009088A9 /* OO2_ClassA.m in Sources */,
 				D7D3DC401BAEFC0C009088A9 /* Block1_Tests.m in Sources */,
@@ -531,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = lang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -542,6 +585,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = lang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
