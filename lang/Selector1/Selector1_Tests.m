@@ -14,6 +14,7 @@
     Selector1_ClassA *o1 = [[Selector1_ClassA alloc] init];
     /// objc_msgSend(o1, @selector(m1:), @"");
     // buildSetting -> Enable Strict Checking of objc_mesgSend Calls 设为NO, no use.
+    [o1 performSelector:@selector(m1:) withObject:@"hello"];
 }
 
 @end

@@ -4,6 +4,7 @@
 @implementation Selector1_ClassA
 
 - (NSString *) m1:(NSString *)s {
+    NSLog(@"in %s, %@", __func__, s);
     return s;
 }
 
