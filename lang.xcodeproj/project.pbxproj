@@ -49,6 +49,8 @@
 		D7D3DC821BB6F969009088A9 /* Exception1_EB.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC811BB6F969009088A9 /* Exception1_EB.m */; };
 		D7D3DC871BB7BC02009088A9 /* String1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC851BB7BC02009088A9 /* String1_ClassA.m */; };
 		D7D3DC891BB7BC07009088A9 /* String1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC861BB7BC02009088A9 /* String1_Tests.m */; };
+		D7D3DC8E1BB7DBD0009088A9 /* Selector1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC8C1BB7DBD0009088A9 /* Selector1_ClassA.m */; };
+		D7D3DC901BB7DBDB009088A9 /* Selector1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC8D1BB7DBD0009088A9 /* Selector1_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		D7D3DC841BB7BC02009088A9 /* String1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String1_ClassA.h; sourceTree = "<group>"; };
 		D7D3DC851BB7BC02009088A9 /* String1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String1_ClassA.m; sourceTree = "<group>"; };
 		D7D3DC861BB7BC02009088A9 /* String1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String1_Tests.m; sourceTree = "<group>"; };
+		D7D3DC8B1BB7DBD0009088A9 /* Selector1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selector1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC8C1BB7DBD0009088A9 /* Selector1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selector1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC8D1BB7DBD0009088A9 /* Selector1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selector1_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +175,7 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DC8A1BB7DBD0009088A9 /* Selector1 */,
 				D7D3DC831BB7BC02009088A9 /* String1 */,
 				D7D3DC761BB6F8F5009088A9 /* Exception1 */,
 				D7D3DC6C1BB6EF6E009088A9 /* Introspection1 */,
@@ -367,6 +373,16 @@
 			path = String1;
 			sourceTree = "<group>";
 		};
+		D7D3DC8A1BB7DBD0009088A9 /* Selector1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC8B1BB7DBD0009088A9 /* Selector1_ClassA.h */,
+				D7D3DC8C1BB7DBD0009088A9 /* Selector1_ClassA.m */,
+				D7D3DC8D1BB7DBD0009088A9 /* Selector1_Tests.m */,
+			);
+			path = Selector1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -471,6 +487,7 @@
 				D7D3DC3E1BAEFC07009088A9 /* Block1_ClassA.m in Sources */,
 				D7B06EC01BAC44B7004430C7 /* ViewController.m in Sources */,
 				D7D3DC7A1BB6F8F5009088A9 /* Exception1_ClassA.m in Sources */,
+				D7D3DC8E1BB7DBD0009088A9 /* Selector1_ClassA.m in Sources */,
 				D7D3DBF51BAD9920009088A9 /* OOCategory1_ClassA.m in Sources */,
 				D7D3DC1C1BAE6EC4009088A9 /* OOAttr1ClassA.m in Sources */,
 				D7D3DC701BB6EF6E009088A9 /* Introspection1_ClassA.m in Sources */,
@@ -496,6 +513,7 @@
 				D7D3DC601BB6E265009088A9 /* Set1_Tests.m in Sources */,
 				D7D3DC201BAEA751009088A9 /* OO2_Tests.m in Sources */,
 				D7D3DC1E1BAE7DE7009088A9 /* OOAttr1_Tests.m in Sources */,
+				D7D3DC901BB7DBDB009088A9 /* Selector1_Tests.m in Sources */,
 				D7D3DC641BB6E55E009088A9 /* Array1_Test.m in Sources */,
 				D7D3DBFB1BAD9C4F009088A9 /* OOCategory1_Test.m in Sources */,
 				D7D3DC381BAEF331009088A9 /* Xcode2012Change1_ClassA.m in Sources */,
@@ -623,6 +641,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = lang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -635,6 +654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = lang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
