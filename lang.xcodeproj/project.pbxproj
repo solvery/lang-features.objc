@@ -47,6 +47,8 @@
 		D7D3DC7C1BB6F919009088A9 /* Exception1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC791BB6F8F5009088A9 /* Exception1_Tests.m */; };
 		D7D3DC7F1BB6F94C009088A9 /* Exception1_EA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC7E1BB6F94C009088A9 /* Exception1_EA.m */; };
 		D7D3DC821BB6F969009088A9 /* Exception1_EB.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC811BB6F969009088A9 /* Exception1_EB.m */; };
+		D7D3DC871BB7BC02009088A9 /* String1_ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC851BB7BC02009088A9 /* String1_ClassA.m */; };
+		D7D3DC891BB7BC07009088A9 /* String1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3DC861BB7BC02009088A9 /* String1_Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +126,9 @@
 		D7D3DC7E1BB6F94C009088A9 /* Exception1_EA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exception1_EA.m; sourceTree = "<group>"; };
 		D7D3DC801BB6F969009088A9 /* Exception1_EB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception1_EB.h; sourceTree = "<group>"; };
 		D7D3DC811BB6F969009088A9 /* Exception1_EB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exception1_EB.m; sourceTree = "<group>"; };
+		D7D3DC841BB7BC02009088A9 /* String1_ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String1_ClassA.h; sourceTree = "<group>"; };
+		D7D3DC851BB7BC02009088A9 /* String1_ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String1_ClassA.m; sourceTree = "<group>"; };
+		D7D3DC861BB7BC02009088A9 /* String1_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String1_Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +170,7 @@
 		D7B06EB61BAC44B7004430C7 /* lang */ = {
 			isa = PBXGroup;
 			children = (
+				D7D3DC831BB7BC02009088A9 /* String1 */,
 				D7D3DC761BB6F8F5009088A9 /* Exception1 */,
 				D7D3DC6C1BB6EF6E009088A9 /* Introspection1 */,
 				D7D3DC651BB6E853009088A9 /* ARC1 */,
@@ -351,6 +357,16 @@
 			path = Exception1;
 			sourceTree = "<group>";
 		};
+		D7D3DC831BB7BC02009088A9 /* String1 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3DC841BB7BC02009088A9 /* String1_ClassA.h */,
+				D7D3DC851BB7BC02009088A9 /* String1_ClassA.m */,
+				D7D3DC861BB7BC02009088A9 /* String1_Tests.m */,
+			);
+			path = String1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -461,6 +477,7 @@
 				D7B06EBD1BAC44B7004430C7 /* main.m in Sources */,
 				D7B06EBB1BAC44B7004430C7 /* AppDelegate.m in Sources */,
 				D7D3DC7F1BB6F94C009088A9 /* Exception1_EA.m in Sources */,
+				D7D3DC871BB7BC02009088A9 /* String1_ClassA.m in Sources */,
 				D7D3DC751BB6EF9F009088A9 /* Introspection1_ClassB.m in Sources */,
 				D7D3DC821BB6F969009088A9 /* Exception1_EB.m in Sources */,
 				D7D3DC311BAEF082009088A9 /* OO1_ClassA.m in Sources */,
@@ -488,6 +505,7 @@
 				D7D3DC721BB6EF7E009088A9 /* Introspection1_Tests.m in Sources */,
 				D7D3DC7C1BB6F919009088A9 /* Exception1_Tests.m in Sources */,
 				D7D3DC071BADA464009088A9 /* OOProtocol1_Tests.m in Sources */,
+				D7D3DC891BB7BC07009088A9 /* String1_Tests.m in Sources */,
 				D7D3DC471BAF0566009088A9 /* KVO1_Tests.m in Sources */,
 				D7D3DC621BB6E4AE009088A9 /* Dict1_Test.m in Sources */,
 				D7B06ED11BAC44B7004430C7 /* langTests.m in Sources */,
