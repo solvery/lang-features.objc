@@ -8,4 +8,8 @@
     return s;
 }
 
+- (void) m2 {
+    NSLog(@"in %s", __func__);
+}
+
 @end
